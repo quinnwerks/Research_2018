@@ -23,3 +23,20 @@ set_property -dict { PACKAGE_PIN C4    IOSTANDARD LVCMOS33 } [get_ports { uart_r
 set_property -dict { PACKAGE_PIN D4    IOSTANDARD LVCMOS33 } [get_ports { uart_rtl_txd }];
 
 
+
+set_property PACKAGE_PIN K15 [get_ports {gpio_io_o_0[1]}]
+set_property PACKAGE_PIN H17 [get_ports {gpio_io_o_0[0]}]
+set_property PACKAGE_PIN C12 [get_ports reset_rtl_0]
+set_property PACKAGE_PIN C4 [get_ports uart_rtl_0_rxd]
+set_property PACKAGE_PIN D4 [get_ports uart_rtl_0_txd]
+set_property PACKAGE_PIN E3 [get_ports clk_100MHz]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_rtl_0_txd]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_rtl_0_rxd]
+set_property IOSTANDARD LVCMOS33 [get_ports reset_rtl_0]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio_io_o_0[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio_io_o_0[1]}]
+set_property PACKAGE_PIN L16 [get_ports {gpio_io_i_0[1]}]
+set_property PACKAGE_PIN J15 [get_ports {gpio_io_i_0[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports clk_100MHz]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio_io_i_0[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio_io_i_0[0]}]
