@@ -7,10 +7,10 @@ wire [7:0] sum;
 
 // Instantiate DUT
 design_1_wrapper dut
-   (.clock_rtl(sys_clk),  // system clock
-    .reset_rtl(reset),    // active high
-    .reset_rtl_0(~reset), // active low
-    .sum(sum));                // sum output
+   (.clk_100MHz(sys_clk),  // system clock
+    .reset_rtl_0(reset),    // active high
+    .reset_rtl_0_0(~reset), // active low
+    .sum_0(sum));                // sum output
 
 always #5 sys_clk = ~sys_clk;
 
