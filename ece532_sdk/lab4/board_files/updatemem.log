@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# 
+# Start of session at: Tue May  1 14:26:35 2018
+# Process ID: 4466
+# Current directory: /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/board_files
+# Command line: updatemem -mode batch -source /cad1/Xilinx/SDK/2018.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.mmi -data /cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -out /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/download.bit -force
+# Log file: /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/board_files/updatemem.log
+# Journal file: /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/board_files/updatemem.jou
+#-----------------------------------------------------------
+source /cad1/Xilinx/SDK/2018.1/scripts/updatemem/main.tcl -notrace
+ Loading bitfile /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/download.bit...
+  update_mem: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 880.348 ; gain = 384.570 ; free physical = 1533 ; free virtual = 34426
+INFO: [Common 17-206] Exiting updatemem at Tue May  1 14:26:44 2018...

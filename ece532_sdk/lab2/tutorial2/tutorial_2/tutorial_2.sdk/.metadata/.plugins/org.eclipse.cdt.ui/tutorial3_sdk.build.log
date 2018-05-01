@@ -1,6 +1,6 @@
-10:43:13 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+11:09:13 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
 make all 
 make: Nothing to be done for 'all'.
 
-10:43:13 Build Finished (took 69ms)
+11:09:14 Build Finished (took 61ms)
 

@@ -1,0 +1,21 @@
+14:37:39 **** Auto Build of configuration Debug for project tutorial_4_sdk ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../tutorial_4_sdk_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: tutorial_4_sdk.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tutorial_4_sdk_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tutorial_4_sdk.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tutorial_4_sdk.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tutorial_4_sdk.elf  |tee "tutorial_4_sdk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3088	    272	   3104	   6464	   1940	tutorial_4_sdk.elf
+Finished building: tutorial_4_sdk.elf.size
+ 
+
+14:37:39 Build Finished (took 312ms)
+

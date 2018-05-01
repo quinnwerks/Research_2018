@@ -1,34 +1,21 @@
-/******************************************************************************
-*
-* Copyright (C) 2009 - 2014 Xilinx, Inc.  All rights reserved.
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in
-* all copies or substantial portions of the Software.
-*
-* Use of the Software is limited solely to applications:
-* (a) running on a Xilinx device, or
-* (b) that interact with a Xilinx device through a bus or interconnect.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-* XILINX  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
-* OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*
-* Except as contained in this notice, the name of the Xilinx shall not be used
-* in advertising or otherwise to promote the sale, use or other dealings in
-* this Software without prior written authorization from Xilinx.
-*
-******************************************************************************/
+
+/*
+ * Copyright (c) 2009-2012 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
 
 /*
  * helloworld.c: simple test application
@@ -47,15 +34,53 @@
 
 #include <stdio.h>
 #include "platform.h"
-#include "xil_printf.h"
 
+volatile unsigned int * led = (unsigned int *)0x40000000;
+volatile unsigned int * swt = (unsigned int *)0x40010000;
 
-int main()
+#define BRAMSIZE 8
+unsigned int * brambase = (unsigned int *)0xc0000000;
+
+#define PRINT xil_printf
+
+unsigned int index;
+unsigned int step = 0;
+
+int main(void)
 {
+
+
     init_platform();
 
-    print("Hello World\n\r");
+    //PRINT("Hello global World\n\r");
 
-    cleanup_platform();
+    PRINT("Writing to memory\n\r");
+
+    step = 1;
+
+    for(index=0; index<BRAMSIZE; index++)
+      {
+	*(brambase+index) = index+1;
+	PRINT("Write %d at location %d = %X\n\r",index+1,index,brambase+index);
+	step = step + 1;
+      }
+
+    PRINT("\n\rReading from memory and checking\n\r");
+
+    step++;
+
+    for(index=0; index<BRAMSIZE; index++)
+    {
+      PRINT("Read %d at location %d = %X\n\r",*(brambase+index),index,brambase+index);
+      step = step + 1;
+    }
+
+    PRINT("Done reading BRAM, start polling switches\n\r");
+    step++;
+
+    PRINT("SUCC \n\r");
+    while(1)
+      *led = *swt;
+
     return 0;
 }

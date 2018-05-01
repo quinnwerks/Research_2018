@@ -801,3 +801,84 @@ Nothing to build for project tutorial_2_sdk
 10:43:13 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
 make all 
 make: Nothing to be done for 'all'.
+10:47:44 **** Auto Build of configuration Debug for project tutorial3_sdk ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../tutorial3_sdk_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: tutorial3_sdk.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tutorial3_sdk_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tutorial3_sdk.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tutorial3_sdk.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tutorial3_sdk.elf  |tee "tutorial3_sdk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3140	    308	   3112	   6560	   19a0	tutorial3_sdk.elf
+Finished building: tutorial3_sdk.elf.size
+ 
+10:47:52 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+make: Nothing to be done for 'all'.
+10:50:39 **** Auto Build of configuration Debug for project tutorial3_sdk ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../tutorial3_sdk_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:46:14: warning: built-in function 'index' declared as non-function
+ unsigned int index;
+              ^~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: tutorial3_sdk.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tutorial3_sdk_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tutorial3_sdk.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tutorial3_sdk.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tutorial3_sdk.elf  |tee "tutorial3_sdk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6652	    324	   3120	  10096	   2770	tutorial3_sdk.elf
+Finished building: tutorial3_sdk.elf.size
+ 
+10:52:22 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+make: Nothing to be done for 'all'.
+11:02:41 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+make: Nothing to be done for 'all'.
+11:04:06 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+make: Nothing to be done for 'all'.
+11:05:07 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../tutorial3_sdk_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:46:14: warning: built-in function 'index' declared as non-function
+ unsigned int index;
+              ^~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: tutorial3_sdk.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tutorial3_sdk_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tutorial3_sdk.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tutorial3_sdk.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tutorial3_sdk.elf  |tee "tutorial3_sdk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6680	    324	   3116	  10120	   2788	tutorial3_sdk.elf
+Finished building: tutorial3_sdk.elf.size
+ 
+11:05:49 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+make: Nothing to be done for 'all'.
+11:09:00 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+make: Nothing to be done for 'all'.
+11:09:13 **** Incremental Build of configuration Debug for project tutorial3_sdk ****
+make all 
+make: Nothing to be done for 'all'.

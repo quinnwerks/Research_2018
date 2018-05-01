@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue May  1 15:29:31 2018
+# Process ID: 12084
+# Current directory: /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab5/tutorial_5/tutorial_5.runs/synth_1
+# Command line: vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab5/tutorial_5/tutorial_5.runs/synth_1/design_1_wrapper.vds
+# Journal file: /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab5/tutorial_5/tutorial_5.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

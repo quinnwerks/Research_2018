@@ -1,0 +1,6 @@
+15:36:58 INFO  : Registering command handlers for SDK TCF services
+15:37:00 INFO  : Launching XSCT server: xsct -n -interactive /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab5/tutorial_5/tutorial_5.sdk/temp_xsdb_launch_script.tcl
+15:37:01 INFO  : XSCT server has started successfully.
+15:37:01 INFO  : Successfully done setting XSCT server connection channel  
+15:37:02 INFO  : Successfully done setting SDK workspace  
+15:37:02 INFO  : Processing command line option -hwspec /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab5/tutorial_5/tutorial_5.sdk/design_1_wrapper.hdf.

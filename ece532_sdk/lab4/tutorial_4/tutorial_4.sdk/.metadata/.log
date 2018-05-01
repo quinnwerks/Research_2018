@@ -1,0 +1,2613 @@
+!SESSION 2018-05-01 14:22:29.425 -----------------------------------------------
+eclipse.buildId=2018.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-05-01 14:22:31.041
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-01 14:22:31.041
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-05-01 14:22:31.629
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-01 14:22:31.629
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:37.066
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:37.067
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:37.075
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:37.076
+!MESSAGE XSCT Command: [setws /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:41.122
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:41.123
+!MESSAGE XSCT command with result: [setws /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:41.169
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.196
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.208
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.210
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Tue May  1 14:05:42 2018",
+"vivado_version": "2018.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.213
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.217
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"mig_7series_0": {"hier_name": "mig_7series_0",
+"type": "mig_7series",
+"version": "4.1",
+"ip_type": "MEMORY_CNTLR",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_mig_7series_0_81M": {"hier_name": "rst_mig_7series_0_81M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.275
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.279
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00001FFF",
+"size": "8192",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+"mig_7series_0_S_AXI_memaddr": {"name": "mig_7series_0",
+"base": "0x80000000",
+"high": "0x87FFFFFF",
+"size": "134217728",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "3",
+"segment": "memaddr",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.300
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.303
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.323
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:22:43.330
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+"mig_7series_0": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.389
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.394
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_0": {"name": "freertos10_xilinx",
+"version": "1.0",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_0",
+},
+"standalone_v6_6": {"name": "standalone",
+"version": "6.6",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/bsp/standalone_v6_6",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.407
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.409
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.414
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.415
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.416
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.418
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.419
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.421
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.426
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.427
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:26.428
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:27.270
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family & serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+},
+"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:27.274
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:27.281
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:27.283
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:27.289
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:49.982
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:49.985
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:50.093
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:50.096
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:50.493
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:50.495
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:50.663
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:50.665
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.080
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.082
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.189
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.191
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.549
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.551
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.800
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:51.802
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.125
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.128
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.205
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.207
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.669
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.671
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.813
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.815
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.901
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:52.903
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:53.038
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:53.040
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:53.565
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:53.567
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:53.701
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:53.703
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:54.413
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:54.415
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:54.589
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:54.591
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:54.997
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:54.999
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:55.182
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:23:55.183
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:02.063
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw tutorial_4_sdk_bsp -dir /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp -processor microblaze_0 -os standalone -app hello_world], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:02.072
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw tutorial_4_sdk_bsp -dir /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp -processor microblaze_0 -os standalone -app hello_world], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:02.172
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:02.174
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:02.175
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:02.177
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:02.178
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:03.600
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.094
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.096
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.097
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.098
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.099
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.101
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.102
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.103
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.104
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.105
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.107
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.108
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.109
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.110
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.111
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.112
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.117
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.118
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.119
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.121
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.122
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.123
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr mig_7series_0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.124
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.127
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"mig_7series_0": {"name": "mig_7series",
+"ver": "2.1",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.6",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.128
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.153
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "10.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_6": {"name": "cpu",
+"version": "2.6",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"mig_7series_0": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"mig_7series_v2_1": {"name": "mig_7series",
+"version": "2.1",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/mig_7series_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_mig_7series_0_81M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/cad1/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.156
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.157
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.159
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.160
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.162
+!MESSAGE XSCT Command: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.163
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.189
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.191
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.192
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.194
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.195
+!MESSAGE XSCT Command: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.196
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.197
+!MESSAGE XSCT Command: [::hsi::utils::opensw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.198
+!MESSAGE XSCT command with result: [::hsi::utils::opensw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.199
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.273
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/src], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.514
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.516
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.518
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.520
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.533
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.537
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"mig_7series_0": {"name": "mig_7series",
+"ver": "2.1",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.6",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.560
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.562
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.563
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.565
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.570
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.573
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.588
+!MESSAGE XSCT Command: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.589
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.864
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.867
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.868
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.870
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.876
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.878
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.885
+!MESSAGE XSCT Command: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:04.887
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.206
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.233
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.238
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.240
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.245
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.269
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.273
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.282
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.286
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.357
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.359
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.362
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.402
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.412
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.416
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.417
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-01 14:24:05.580
+!MESSAGE Indexed 'tutorial_4_sdk' (2 sources, 46 headers) in 0.51 sec: 1,380 declarations; 2,320 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.754
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.756
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:05.759
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-01 14:24:06.039
+!MESSAGE Indexed 'tutorial_4_sdk_bsp' (41 sources, 41 headers) in 0.451 sec: 1,013 declarations; 4,906 references; 29 unresolved inclusions; 3 syntax errors; 24 unresolved names (0.4%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:06.081
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:06.084
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:06.086
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:06.660
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:06.662
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:06.663
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:07.095
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-05-01 14:24:07.127
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.271
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.274
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.274
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.277
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.278
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.279
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.280
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.282
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.283
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.285
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, {"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"mig_7series_0": {"name": "mig_7series",
+"ver": "2.1",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.6",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.287
+!MESSAGE XSCT Command: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:24:14.288
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:31.680
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:31.682
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Result: [null, design_1_wrapper.bit]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:31.684
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:31.686
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:34.910
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:34.912
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:34.913
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:34.915
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.352
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.495
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.497
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.797
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292646036A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.799
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.804
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292646036A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.805
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.818
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.820
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.836
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:44.838
+!MESSAGE XSCT Command: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:47.026
+!MESSAGE XSCT command with result: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:47.827
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:26:47.829
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:27:16.511
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:27:16.513
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:27:16.514
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:27:16.515
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:27:16.516
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:27:16.518
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.741
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.746
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.747
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.751
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.755
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.758
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.759
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.762
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.763
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.765
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.766
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.770
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.771
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.773
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.775
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.782
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292646036A]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.784
+!MESSAGE XSCT Command: [version -server], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.786
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.1]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.787
+!MESSAGE XSCT Command: [version], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.788
+!MESSAGE XSCT command with result: [version], Result: [null, 2018.1]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.792
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.798
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292646036A]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.799
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.820
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.821
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.826
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292646036A]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.827
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.843
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.845
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.852
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292646036A]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.853
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.868
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.869
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.875
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292646036A]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.876
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.897
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.898
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.920
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.923
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.925
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.926
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.930
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.945
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.954
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.955
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.981
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:06.982
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:07.007
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:07.009
+!MESSAGE XSCT Command: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-05-01 14:28:07.092
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:483)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:421)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:509)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:36)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:72)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:97)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:294)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:45)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:107)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:120)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.access$2(LscriptEditor.java:1)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.226
+!MESSAGE XSCT command with result: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.234
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.236
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.237
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.263
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.264
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.273
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.274
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.296
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.297
+!MESSAGE XSCT Command: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.324
+!MESSAGE XSCT command with result: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.338
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.361
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.362
+!MESSAGE XSCT Command: [con], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.368
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.369
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-155
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:28:09.372
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-155
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.533
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.639
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.640
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.672
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.673
+!MESSAGE XSCT Command: [version -server], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.675
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.1]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.675
+!MESSAGE XSCT Command: [version], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.676
+!MESSAGE XSCT command with result: [version], Result: [null, 2018.1]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.677
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.682
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.683
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.695
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.696
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.701
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.701
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.714
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.715
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.720
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.721
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.734
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.735
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.739
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.740
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.753
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.754
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.769
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.770
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.772
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.780
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.785
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.786
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.800
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.801
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.818
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:44.819
+!MESSAGE XSCT Command: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.021
+!MESSAGE XSCT command with result: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.029
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.031
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.032
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.067
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.068
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.078
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.079
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.101
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.102
+!MESSAGE XSCT Command: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.129
+!MESSAGE XSCT command with result: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.134
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.158
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.159
+!MESSAGE XSCT Command: [con], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.164
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.165
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-194
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:31:47.167
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-194
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.355
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.462
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.463
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.498
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.499
+!MESSAGE XSCT Command: [version -server], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.501
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.1]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.501
+!MESSAGE XSCT Command: [version], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.502
+!MESSAGE XSCT command with result: [version], Result: [null, 2018.1]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.503
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.508
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.509
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.524
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.525
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.530
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.530
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.545
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.546
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.550
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.551
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.565
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.566
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.571
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.572
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.587
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.587
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.601
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.603
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.604
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.613
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.618
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.619
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.634
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.635
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.654
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:39.655
+!MESSAGE XSCT Command: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.853
+!MESSAGE XSCT command with result: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.870
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.872
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.873
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.912
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.913
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.921
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.922
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.945
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.946
+!MESSAGE XSCT Command: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.973
+!MESSAGE XSCT command with result: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:41.979
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:42.004
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:42.005
+!MESSAGE XSCT Command: [con], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:42.011
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:42.012
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-225
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:42.015
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-225
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.464
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.565
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.566
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.598
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.598
+!MESSAGE XSCT Command: [version -server], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.600
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.1]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.601
+!MESSAGE XSCT Command: [version], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.602
+!MESSAGE XSCT command with result: [version], Result: [null, 2018.1]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.602
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.607
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.608
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.621
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.622
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.627
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.627
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.640
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.641
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.646
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.646
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.659
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.660
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.665
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.666
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.679
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.680
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.693
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.694
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.695
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.703
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.708
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.709
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.722
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.723
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.739
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:54.740
+!MESSAGE XSCT Command: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:56.940
+!MESSAGE XSCT command with result: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:56.961
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:56.964
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:56.964
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.002
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.003
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.012
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.013
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.048
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.049
+!MESSAGE XSCT Command: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.076
+!MESSAGE XSCT command with result: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.081
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.105
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.106
+!MESSAGE XSCT Command: [con], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.112
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.113
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-254
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:32:57.115
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-254
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:07.859
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:07.969
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:07.970
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.003
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.004
+!MESSAGE XSCT Command: [version -server], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.005
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.1]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.006
+!MESSAGE XSCT Command: [version], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.007
+!MESSAGE XSCT command with result: [version], Result: [null, 2018.1]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.008
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.013
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.013
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.027
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.028
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.032
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.033
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.045
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.046
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.051
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.052
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.068
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.069
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.074
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.074
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.087
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.088
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.101
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292646036A" && level == 0}], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.102
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.103
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.112
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.117
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292646036A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.118
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.131
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.132
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.161
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:08.162
+!MESSAGE XSCT Command: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.360
+!MESSAGE XSCT command with result: [fpga -file /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.374
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.376
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.377
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.414
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.415
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.423
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.424
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.447
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.448
+!MESSAGE XSCT Command: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.475
+!MESSAGE XSCT command with result: [dow /nfs/ug/homes-0/s/smithqu1/GitHub/research2018/ece532_sdk/lab4/tutorial_4/tutorial_4.sdk/tutorial_4_sdk/Debug/tutorial_4_sdk.elf], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.481
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.505
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646036A"} -index 0], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.506
+!MESSAGE XSCT Command: [con], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.510
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.511
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-284
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-01 14:33:10.514
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-284
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-05-01 14:37:35.897
+!MESSAGE Executed Webtalk command
+
+!ENTRY org.eclipse.jface 4 0 2018-05-01 14:37:40.193
+!MESSAGE Unhandled event loop exception during blocked modal context.
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalStateException: Need an underlying widget to be able to set the input.(Has the widget been disposed?))
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4528)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4146)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:481)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:242)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:463)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:309)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3111)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1200)
+	at org.eclipse.ui.internal.Workbench.access$22(Workbench.java:1112)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1453)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1450)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1423)
+	at org.eclipse.ui.internal.handlers.QuitHandler.execute(QuitHandler.java:43)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:353)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:155)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5219)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1340)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4553)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4143)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+Caused by: java.lang.IllegalStateException: Need an underlying widget to be able to set the input.(Has the widget been disposed?)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1687)
+	at com.xilinx.sdk.lscript.ui.LscriptEditorPage.refreshMemories(LscriptEditorPage.java:336)
+	at com.xilinx.sdk.lscript.ui.LscriptEditorPage.access$4(LscriptEditorPage.java:334)
+	at com.xilinx.sdk.lscript.ui.LscriptEditorPage$4.run(LscriptEditorPage.java:360)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:162)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:154)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 61 more

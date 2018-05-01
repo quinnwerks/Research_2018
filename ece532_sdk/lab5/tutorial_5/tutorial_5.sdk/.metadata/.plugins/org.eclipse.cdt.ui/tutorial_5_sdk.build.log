@@ -1,0 +1,21 @@
+15:40:33 **** Auto Build of configuration Debug for project tutorial_5_sdk ****
+make all 
+Building file: ../src/lmao.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lmao.o" -I../../tutorial_5_sdk_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lmao.d" -MT"src/lmao.o" -o "src/lmao.o" "../src/lmao.c"
+Finished building: ../src/lmao.c
+ 
+Building target: tutorial_5_sdk.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tutorial_5_sdk_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tutorial_5_sdk.elf"  ./src/lmao.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tutorial_5_sdk.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tutorial_5_sdk.elf  |tee "tutorial_5_sdk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2076	    272	   3108	   5456	   1550	tutorial_5_sdk.elf
+Finished building: tutorial_5_sdk.elf.size
+ 
+
+15:40:33 Build Finished (took 121ms)
+
