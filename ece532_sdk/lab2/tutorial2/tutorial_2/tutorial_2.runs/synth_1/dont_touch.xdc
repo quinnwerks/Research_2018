@@ -54,4 +54,13 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_tutorial
 # IP: bd/design_tutorial_2/ip/design_tutorial_2_lmb_bram_0/design_tutorial_2_lmb_bram_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_tutorial_2_lmb_bram_0 || ORIG_REF_NAME==design_tutorial_2_lmb_bram_0} -quiet] -quiet
 
+# IP: bd/design_tutorial_2/ip/design_tutorial_2_axi_bram_ctrl_0_0/design_tutorial_2_axi_bram_ctrl_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_tutorial_2_axi_bram_ctrl_0_0 || ORIG_REF_NAME==design_tutorial_2_axi_bram_ctrl_0_0} -quiet] -quiet
+
+# IP: bd/design_tutorial_2/ip/design_tutorial_2_blk_mem_gen_0_0/design_tutorial_2_blk_mem_gen_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_tutorial_2_blk_mem_gen_0_0 || ORIG_REF_NAME==design_tutorial_2_blk_mem_gen_0_0} -quiet] -quiet
+
+# IP: bd/design_tutorial_2/ip/design_tutorial_2_auto_pc_0/design_tutorial_2_auto_pc_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_tutorial_2_auto_pc_0 || ORIG_REF_NAME==design_tutorial_2_auto_pc_0} -quiet] -quiet
+
 # XDC: bd/design_tutorial_2/design_tutorial_2_ooc.xdc

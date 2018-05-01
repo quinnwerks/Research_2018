@@ -7,16 +7,16 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/nfs/ug/cad/cad1/Xilinx/SDK/2018.1/bin:/nfs/ug/cad/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/lin64:/nfs/ug/cad/cad1/Xilinx/Vivado/2018.1/bin
+  PATH=/cad1/Xilinx/SDK/2018.1/bin:/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/lin64:/cad1/Xilinx/Vivado/2018.1/bin
 else
-  PATH=/nfs/ug/cad/cad1/Xilinx/SDK/2018.1/bin:/nfs/ug/cad/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/lin64:/nfs/ug/cad/cad1/Xilinx/Vivado/2018.1/bin:$PATH
+  PATH=/cad1/Xilinx/SDK/2018.1/bin:/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/lin64:/cad1/Xilinx/Vivado/2018.1/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=/nfs/ug/cad/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/lin64
+  LD_LIBRARY_PATH=/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/lin64
 else
-  LD_LIBRARY_PATH=/nfs/ug/cad/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=/cad1/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 

@@ -1,6 +1,4 @@
-16:50:30 **** Auto Build of configuration Debug for project tutorial_2_sdk ****
-make all 
-make: Nothing to be done for 'all'.
 
-16:50:30 Build Finished (took 66ms)
+****  of configuration Debug for project tutorial_2_sdk ****
 
+Nothing to build for project tutorial_2_sdk
